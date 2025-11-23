@@ -61,6 +61,27 @@
 
 ## 🚀 Quick Start
 
+### **⚡ Fastest Way: 5-Minute Demo**
+
+```bash
+# 1. Install dependencies
+pip install -r requirement.txt
+python -m spacy download en_core_web_sm
+
+# 2. Run complete demo
+python demo.py
+
+# This will:
+# - Generate 200 synthetic documents
+# - Train a classifier (5 epochs)
+# - Run end-to-end inference
+# - Show you the results!
+```
+
+**See detailed walkthrough**: [QUICKSTART.md](QUICKSTART.md)
+
+---
+
 ### **Choose Your Environment:**
 
 <details>
@@ -430,13 +451,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📈 Project Status
 
-🟢 **Active Development** - Sprint 1 in progress
+🟢 **Sprint 1 Complete!** - Ready for Training & Deployment
 
-**Current Sprint**: Sprint 1 - Data Collection & EDA  
-**Next Milestone**: Complete data preprocessing  
-**Target Completion**: [Target Date]
+**Completed Features**:
+- ✅ Synthetic document generator (invoices, receipts, resumes, contracts)
+- ✅ Public dataset downloaders (RVL-CDIP, SROIE, CUAD)
+- ✅ Data preprocessing pipeline with augmentation
+- ✅ Document classifier (ResNet-50, EfficientNet, ViT support)
+- ✅ Information extraction system (rule-based + ML-ready)
+- ✅ Training pipeline with early stopping & checkpointing
+- ✅ End-to-end inference script
+- ✅ Test suite & documentation
 
-**Updates**: Follow progress in [CHANGELOG.md](CHANGELOG.md)
+**Next Milestone**: Model deployment on AWS SageMaker
+**Try it now**: `python demo.py` for a complete walkthrough!
 
 ---
 
